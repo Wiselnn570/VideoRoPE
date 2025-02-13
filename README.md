@@ -88,14 +88,11 @@ Finally, you can specify the llava_v1_5_mix665k_with_video_chatgpt72k_share4vide
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 
 ```bibtex
-@misc{wei2025videoropemakesgoodvideo,
-      title={VideoRoPE: What Makes for Good Video Rotary Position Embedding?}, 
-      author={Xilin Wei and Xiaoran Liu and Yuhang Zang and Xiaoyi Dong and Pan Zhang and Yuhang Cao and Jian Tong and Haodong Duan and Qipeng Guo and Jiaqi Wang and Xipeng Qiu and Dahua Lin},
-      year={2025},
-      eprint={2502.05173},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2502.05173}, 
+@article{wei2025videorope,
+  title={VideoRoPE: What Makes for Good Video Rotary Position Embedding?},
+  author={Wei, Xilin and Liu, Xiaoran and Zang, Yuhang and Dong, Xiaoyi and Zhang, Pan and Cao, Yuhang and Tong, Jian and Duan, Haodong and Guo, Qipeng and Wang, Jiaqi and others},
+  journal={arXiv preprint arXiv:2502.05173},
+  year={2025}
 }
 ```
 
