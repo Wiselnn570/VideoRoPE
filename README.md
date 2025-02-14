@@ -34,11 +34,43 @@
 
 ## 👨‍💻 Todo
 
-- [] VideoRoPE Implementation with *transformers*
-- [] VideoRoPE Implementation with *vLLM*
-- [] V-NIAH-D Release
+- [✓] VideoRoPE Implementation with *transformers*
+- [✓] VideoRoPE Implementation with *vLLM*
+- [✓] V-NIAH-D Release
 - [] VideoRoPE-Based Model Checkpoints
 
+
+## 🛠️ Usage
+
+- The implementation of videorope is emphasized with **#!**, and you can easily find it by pressing ctrl + F.
+- For transformer inference:
+  ```
+  with torch.inference_mode():
+      generated_ids = model.generate(
+        ..., 
+        which_rope=which_rope,
+        scale_factor=scale_factor
+      )
+      generated_ids_trimmed = [
+          out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+      ]
+      output_text = processor.batch_decode(
+          generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+      )
+      generated_text = output_text[0]
+  ```
+- For vLLM inference:
+  ```
+  mm_data['which_rope'] = which_rope
+  mm_data['scale_factor'] = scale_factor
+  llm_inputs = {
+      "prompt": prompt,
+      "multi_modal_data": mm_data,
+  }
+  with torch.no_grad():
+      outputs = llm.generate([llm_inputs], sampling_params=sampling_params)
+  generated_text = outputs[0].outputs[0].text
+  ```
 <!-- ## Quick Usage
 
 You can directly use our ShareGPT4Video model for conversation with your own video by the following command:
@@ -100,3 +132,4 @@ If you find our work helpful for your research, please consider giving a star �
 
 - [transformers](https://github.com/huggingface/transformers): the codebase we built upon. Thanks for their wonderful work.
 - [vLLM](https://github.com/PKU-YuanGroup/Open-Sora-Plan): an excellent open-source codebase for high-throughput and memory-efficient inference. Thanks for their wonderful work.
+- [Qwen2-VL](https://github.com/QwenLM/Qwen2.5-VL): the amazing open-sourced multimodal large language model!
