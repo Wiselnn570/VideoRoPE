@@ -9,7 +9,7 @@
 
 - **Authors**: [Xilin Wei*](https://github.com/Wiselnn570), [Xiaoran Liu*](https://scholar.google.de/citations?user=Qe6F4J4AAAAJ&hl=en), [Yuhang Zang](https://yuhangzang.github.io), [Xiaoyi Dong](https://lightdxy.github.io), [Pan Zhang](https://panzhang0212.github.io/), [Yuhang Cao](https://scholar.google.com/citations?user=sJkqsqkAAAAJ&hl=en), [Jian Tong](), [Haodong Duan](https://kennymckormick.github.io/), [Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en), [Jiaqi Wang](https://myownskyw7.github.io/), [Xipeng Qiu](https://xpqiu.github.io/en.html), [Dahua Lin](http://dahua.site/)
 - **Institutes**: Fudan University; Shanghai AI Laboratory; Shanghai Innovation Institute
-- **Resources**: [📖[Paper]()] [[🏠Project Page](https://wiselnn570.github.io/VideoRoPE/)] [[🤗Huggingface]()]
+- **Resources**: [📖[Paper](https://arxiv.org/pdf/2502.05173)] [[🏠Project Page](https://wiselnn570.github.io/VideoRoPE/)] [[🤗Huggingface]()]
 ## 💡 Highlights
 
 - 🔥 **Four Key Positional Encoding Schemes:** We present an analysis of four key properties essential for RoPE when applied to video. Motivated by this analysis, we propose **VideoRoPE** including **Low-frequency Temporal Allocation (LTA)**, **Diagonal Layout (DL)**, and **Adjustable Temporal Spacing (ATS)** to satisfy all four properties.
@@ -83,33 +83,18 @@ You need to follow the [instructions](https://github.com/PKU-YuanGroup/Video-LLa
 
 Finally, you can specify the llava_v1_5_mix665k_with_video_chatgpt72k_share4video28k.json file in the [finetune.sh](https://github.com/PKU-YuanGroup/Video-LLaVA/blob/main/scripts/v1_5/finetune.sh) to perform the SFT to reproduce the results in the paper. -->
 
-<!-- ## ✒️ Citation
+## ✒️ Citation
 
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 
 ```bibtex
-
-@article{chen2024sharegpt4video,
-  title={ShareGPT4Video: Improving Video Understanding and Generation with Better Captions},
-  author={Chen, Lin and Wei, Xilin and Li, Jinsong and Dong, Xiaoyi and Zhang, Pan and Zang, Yuhang and Chen, Zehui and Duan, Haodong and Lin, Bin and Tang, Zhenyu and others},
-  journal={arXiv preprint arXiv:2406.04325},
-  year={2024}
+@article{wei2025videorope,
+  title={VideoRoPE: What Makes for Good Video Rotary Position Embedding?},
+  author={Wei, Xilin and Liu, Xiaoran and Zang, Yuhang and Dong, Xiaoyi and Zhang, Pan and Cao, Yuhang and Tong, Jian and Duan, Haodong and Guo, Qipeng and Wang, Jiaqi and others},
+  journal={arXiv preprint arXiv:2502.05173},
+  year={2025}
 }
-
-@article{chen2023sharegpt4v,
-  title={ShareGPT4V: Improving Large Multi-Modal Models with Better Captions},
-  author={Chen, Lin and Li, Jisong and Dong, Xiaoyi and Zhang, Pan and He, Conghui and Wang, Jiaqi and Zhao, Feng and Lin, Dahua},
-  journal={arXiv preprint arXiv:2311.12793},
-  year={2023}
-}
-
-@article{chen2024we,
-  title={Are We on the Right Way for Evaluating Large Vision-Language Models?},
-  author={Chen, Lin and Li, Jinsong and Dong, Xiaoyi and Zhang, Pan and Zang, Yuhang and Chen, Zehui and Duan, Haodong and Wang, Jiaqi and Qiao, Yu and Lin, Dahua and others},
-  journal={arXiv preprint arXiv:2403.20330},
-  year={2024}
-}
-``` -->
+```
 
 ## ❤️ Acknowledgments
 
