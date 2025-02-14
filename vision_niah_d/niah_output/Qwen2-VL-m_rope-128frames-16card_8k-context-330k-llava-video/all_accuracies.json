@@ -1,0 +1,452 @@
+[
+    {
+        "Num. Frame": 100,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 100,
+        "Frame Depth": 20.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 100,
+        "Frame Depth": 40.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 100,
+        "Frame Depth": 60.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 100,
+        "Frame Depth": 80.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 100,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 300,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 300,
+        "Frame Depth": 20.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 300,
+        "Frame Depth": 40.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 300,
+        "Frame Depth": 60.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 300,
+        "Frame Depth": 80.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 300,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 500,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 500,
+        "Frame Depth": 20.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 500,
+        "Frame Depth": 40.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 500,
+        "Frame Depth": 60.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 500,
+        "Frame Depth": 80.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 500,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 700,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 700,
+        "Frame Depth": 20.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 700,
+        "Frame Depth": 40.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 700,
+        "Frame Depth": 60.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 700,
+        "Frame Depth": 80.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 700,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 900,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 900,
+        "Frame Depth": 20.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 900,
+        "Frame Depth": 40.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 900,
+        "Frame Depth": 60.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 900,
+        "Frame Depth": 80.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 900,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1100,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1100,
+        "Frame Depth": 20.0,
+        "Score": 0.4
+    },
+    {
+        "Num. Frame": 1100,
+        "Frame Depth": 40.0,
+        "Score": 0.4
+    },
+    {
+        "Num. Frame": 1100,
+        "Frame Depth": 60.0,
+        "Score": 0.4
+    },
+    {
+        "Num. Frame": 1100,
+        "Frame Depth": 80.0,
+        "Score": 0.4
+    },
+    {
+        "Num. Frame": 1100,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1300,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1300,
+        "Frame Depth": 20.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 1300,
+        "Frame Depth": 40.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 1300,
+        "Frame Depth": 60.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 1300,
+        "Frame Depth": 80.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 1300,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1500,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1500,
+        "Frame Depth": 20.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 1500,
+        "Frame Depth": 40.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 1500,
+        "Frame Depth": 60.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 1500,
+        "Frame Depth": 80.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 1500,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1700,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1700,
+        "Frame Depth": 20.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 1700,
+        "Frame Depth": 40.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 1700,
+        "Frame Depth": 60.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 1700,
+        "Frame Depth": 80.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 1700,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1900,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 1900,
+        "Frame Depth": 20.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 1900,
+        "Frame Depth": 40.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 1900,
+        "Frame Depth": 60.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 1900,
+        "Frame Depth": 80.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 1900,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2100,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2100,
+        "Frame Depth": 20.0,
+        "Score": 0.4
+    },
+    {
+        "Num. Frame": 2100,
+        "Frame Depth": 40.0,
+        "Score": 0.4
+    },
+    {
+        "Num. Frame": 2100,
+        "Frame Depth": 60.0,
+        "Score": 0.4
+    },
+    {
+        "Num. Frame": 2100,
+        "Frame Depth": 80.0,
+        "Score": 0.4
+    },
+    {
+        "Num. Frame": 2100,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2300,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2300,
+        "Frame Depth": 20.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 2300,
+        "Frame Depth": 40.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 2300,
+        "Frame Depth": 60.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 2300,
+        "Frame Depth": 80.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 2300,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2500,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2500,
+        "Frame Depth": 20.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 2500,
+        "Frame Depth": 40.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 2500,
+        "Frame Depth": 60.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 2500,
+        "Frame Depth": 80.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 2500,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2700,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2700,
+        "Frame Depth": 20.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 2700,
+        "Frame Depth": 40.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 2700,
+        "Frame Depth": 60.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 2700,
+        "Frame Depth": 80.0,
+        "Score": 0.8
+    },
+    {
+        "Num. Frame": 2700,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2900,
+        "Frame Depth": 0.0,
+        "Score": 1.0
+    },
+    {
+        "Num. Frame": 2900,
+        "Frame Depth": 20.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 2900,
+        "Frame Depth": 40.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 2900,
+        "Frame Depth": 60.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 2900,
+        "Frame Depth": 80.0,
+        "Score": 0.6
+    },
+    {
+        "Num. Frame": 2900,
+        "Frame Depth": 100.0,
+        "Score": 1.0
+    }
+]

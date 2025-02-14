@@ -1,0 +1,27 @@
+[
+    {
+        "path": "zoo.png",
+        "prompt": "\nFind the frame with the word 'zoo'. What is the animal outside the zoo shop?\nA. lion\nB. tiger\nC. horse\nD. dog\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B"
+    },
+    {
+        "path": "sora_balloon.png",
+        "prompt": "\nFind the frame of a couple in a wedding. In side the frame, there is a balloon on the bridegroom's head. What is the color of that ballon?\nA. Yellow\nB. Red\nC. Blue\nD. White\nPlease provide your answer by stating the letter followed by the full option.",
+        "answer": "A"
+    },
+    {
+        "path": "selenium_green.jpg",
+        "prompt": "\nFind the frame with the image of Selenium tablets. How many mg does each tablet contain?\nAnswer the question using a single word or phrase.",
+        "answer": "200"
+    },
+    {
+        "path": "panda_scientist.png",
+        "prompt": "\nFind the frame of a scientist. The scientist is a...\nA. Bird\nB. Elephant\nC. Panda\nD. Dog\nPlease provide your answer by stating the letter followed by the full option.",
+        "answer": "C"
+    },
+    {
+        "path": "teddy_bear_times_square.png",
+        "prompt": "\nFind the frame of a teddy bear. Where is this teddy bear?\nA. Times Square\nB. Eiffel Tower\nC. Taj Mahal\nD. Sydney Opera House\nPlease provide your answer by stating the letter followed by the full option.",
+        "answer": "A"
+    }
+]
