@@ -748,7 +748,7 @@ class MRotaryEmbedding(RotaryEmbedding):
         Args:
             positions:
                 [num_tokens,] (text only) or
-                [3, num_tokens] (T/H/W positions with multimodal inputs)
+                [3, num_tokens] (H,W interleave, T positions with multimodal inputs)
             query: [num_tokens, num_heads * head_size]
             key: [num_tokens, num_kv_heads * head_size]
         """
