@@ -9,7 +9,7 @@
 
 - **Authors**: [Xilin Wei*](https://github.com/Wiselnn570), [Xiaoran Liu*](https://scholar.google.de/citations?user=Qe6F4J4AAAAJ&hl=en), [Yuhang Zang](https://yuhangzang.github.io), [Xiaoyi Dong](https://lightdxy.github.io), [Pan Zhang](https://panzhang0212.github.io/), [Yuhang Cao](https://scholar.google.com/citations?user=sJkqsqkAAAAJ&hl=en), [Jian Tong](), [Haodong Duan](https://kennymckormick.github.io/), [Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en), [Jiaqi Wang](https://myownskyw7.github.io/), [Xipeng Qiu](https://xpqiu.github.io/en.html), [Dahua Lin](http://dahua.site/)
 - **Institutes**: Fudan University; Shanghai AI Laboratory; Shanghai Innovation Institute
-- **Resources**: [📖[Paper](https://arxiv.org/pdf/2502.05173)] [[🏠Project Page](https://wiselnn570.github.io/VideoRoPE/)] [[🤗Huggingface]()]
+- **Resources**: [📖[Paper](https://arxiv.org/pdf/2502.05173)] [[🏠Project Page](https://wiselnn570.github.io/VideoRoPE/)] [[🤗Huggingface](https://huggingface.co/collections/Wiselnn/videorope-what-makes-for-good-video-rotary-position-embeddi-67ca90664c8e169422449c56)]
 ## 💡 Highlights
 
 - 🔥 **Four Key Positional Encoding Schemes:** We present an analysis of four key properties essential for RoPE when applied to video. Motivated by this analysis, we propose **VideoRoPE** including **Low-frequency Temporal Allocation (LTA)**, **Diagonal Layout (DL)**, and **Adjustable Temporal Spacing (ATS)** to satisfy all four properties.
@@ -27,6 +27,9 @@
 **[2024/6/11]** The web demo and local demo of ShareGPT4Video-8B are available now!
 
 **[2024/6/7]** Our paper has been featured as [HuggingFace Daily Papers](https://huggingface.co/papers?date=2024-06-07) and ranked 1st in 6.7. -->
+
+**[2025/3/7]** The V-NIAH-D benchmark and training data have been released on [🤗 Huggingface](https://huggingface.co/datasets/Wiselnn/VideoRoPE).
+
 
 **[2025/3/7]** The training code has been added to the repository, please check it out.
 
