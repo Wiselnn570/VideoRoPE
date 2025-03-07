@@ -16,9 +16,9 @@
 - 🔥 **A Challenging Video Haystack Retrieval Benchmark:** We introduce the challenging **V-NIAH-D** task to expose the drawbacks of current position embedding designs regarding frequency allocation. Our findings reveal that existing Video LLMs are easily misled to frequency-based distractors.
 - 🔥 **Excellent Performance:** Extensive experiments demonstrate that VideoRoPE consistently achieves superior performance compared to other RoPE variants. For example, VideoRoPE outperforms previous M-RoPE on long video retrieval (+12.4 on V-NIAH, +12.4 on V-NIAH-D), video understanding (+2.9 on LongVideoBench, +4.5 on MLVU, +1.7 on Video-MME) and hallucination (+11.9 on VideoHallucer) benchmarks.
 
-<!-- ## 📜 News
+## 📜 News
 
-**[2024/10/1]** ShareGPT4Video was accepted by NeurIPS 2024 D&B track!
+<!-- **[2024/10/1]** ShareGPT4Video was accepted by NeurIPS 2024 D&B track!
 
 **[2024/7/1]** The code about batch-inference of ShareCaptioner-Video is available now!
 
@@ -26,18 +26,18 @@
 
 **[2024/6/11]** The web demo and local demo of ShareGPT4Video-8B are available now!
 
-**[2024/6/7]** Our paper has been featured as [HuggingFace Daily Papers](https://huggingface.co/papers?date=2024-06-07) and ranked 1st in 6.7.
+**[2024/6/7]** Our paper has been featured as [HuggingFace Daily Papers](https://huggingface.co/papers?date=2024-06-07) and ranked 1st in 6.7. -->
 
-**[2024/5/27]** The [ShareGPT4Video-8B](https://huggingface.co/Lin-Chen/sharegpt4video-8b) model is released!
+**[2025/3/7]** The training code has been added to the repository, please check it out.
 
-**[2024/5/26]** The [ShareGPT4Video dataset](https://huggingface.co/datasets/ShareGPT4Video/ShareGPT4Video) and [project page](https://sharegpt4video.github.io/) are released! -->
+**[2025/2/14]** [Code]() and [Project Page](https://wiselnn570.github.io/VideoRoPE/) are released!
 
-## 👨‍💻 Todo
+<!-- ## 👨‍💻 Todo
 
 - [✓] VideoRoPE Implementation with *transformers*
 - [✓] VideoRoPE Implementation with *vLLM*
 - [✓] V-NIAH-D Release
-- [] VideoRoPE-Based Model Checkpoints
+- [] VideoRoPE-Based Model Checkpoints -->
 
 
 ## 🛠️ Usage
@@ -106,14 +106,19 @@ pip install -e .
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
+ -->
 
 ## Train
 
-To validate the effectiveness of high-quality video captions for helping to improve the LVLMs' comprehension capabilities. We choose the [VideoLLaVA](https://github.com/PKU-YuanGroup/Video-LLaVA?tab=readme-ov-file) and [LLaMA-VID](https://github.com/dvlab-research/LLaMA-VID) models as our baselines. The SFT data used for both models is LLaVA-mix665K image data plus VideoChatGPT-100K video data. We replace 28K caption data in VideoChatGPT-100K with 28K high quality caption data from ShareGPT4Video. Next, we take VideoLLaVA as the example.
+To verify the superiority of VideoRoPE, we use the diverse and high-quality video dataset [LLaVA-Video-178K](https://huggingface.co/datasets/lmms-lab/LLaVA-Video-178K) for video fine-tuning. To balance training efficiency and long-video comprehension, we randomly select 136K videos with durations under 2 minutes and 18K videos with durations between 2 and 3 minutes.
 
-You need to follow the [instructions](https://github.com/PKU-YuanGroup/Video-LLaVA/blob/main/TRAIN_AND_VALIDATE.md) in VideoLLaVA to prepare the images and videos first, then download the 28K videos used in ShareGPT4Video from [HuggingFace](https://huggingface.co/datasets/ShareGPT4Video/ShareGPT4Video/tree/main/zip_folder) (only involves bdd100k, ego4d, and panda).
+Once the data is prepared, one can fine-tune model following the training data format of [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory):
 
-Finally, you can specify the llava_v1_5_mix665k_with_video_chatgpt72k_share4video28k.json file in the [finetune.sh](https://github.com/PKU-YuanGroup/Video-LLaVA/blob/main/scripts/v1_5/finetune.sh) to perform the SFT to reproduce the results in the paper. -->
+```sh
+cd LLaMA-Factory
+sh multi_gpu_sft_slurm.sh
+```
+*It is important to note that in order to align with the training format of Qwen2-VL, we mainly made adjustments to LLaMA-Factory/src/llamafactory/data/mm_plugin.py.*
 
 ## ✒️ Citation
 
@@ -133,3 +138,4 @@ If you find our work helpful for your research, please consider giving a star �
 - [transformers](https://github.com/huggingface/transformers): the codebase we built upon. Thanks for their wonderful work.
 - [vLLM](https://github.com/PKU-YuanGroup/Open-Sora-Plan): an excellent open-source codebase for high-throughput and memory-efficient inference. Thanks for their wonderful work.
 - [Qwen2-VL](https://github.com/QwenLM/Qwen2.5-VL): the amazing open-sourced multimodal large language model!
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): Wonderful job in facilitating LLMs & VLMs training.

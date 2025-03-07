@@ -1,0 +1,53 @@
+# conda activate qwen2-vl; cd /mnt/petrelfs/weixilin/projects/MLLM/LLaMA-Factory; proxy_off
+# CUDA_VISIBLE_DEVICES=0 FORCE_TORCHRUN=1 llamafactory-cli train examples/train_full/qwen2vl_full_sft.yaml
+### model
+model_name_or_path: /mnt/hwfile/mllm/weixilin/cache/Qwen2-VL-7B-Instruct-with-Qwen2-Language-Backbone
+total_pixels: 6272000
+video_maxlen: 128
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset
+dataset: llava_videos_330k_split0,llava_videos_330k_split1,llava_videos_330k_split2
+template: qwen2_vl
+cutoff_len: 8200
+overwrite_cache: true
+num_train_epochs: 1.0
+
+# # streaming
+# streaming: true
+# max_steps: 10000
+# accelerator_config:
+#   dispatch_batches: false
+# buffer_size: 128
+tokenized_path: /mnt/petrelfs/weixilin/cache/training_qwen2vl_pretokenized_data-llava_videos_330k_other_times300k_2_3mins30k-128frames/
+# packing: true
+preprocessing_num_workers: 64
+report_to: none
+
+
+### output
+output_dir: /mnt/petrelfs/weixilin/cache/Qwen2-VL-videorope-context-330k-llava-video
+logging_steps: 1
+save_steps: 2000
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 16
+learning_rate: 1.0e-5
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+flash_attn: fa2
+# resume_from_checkpoint: true
+### eval
+val_size: 1
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 500
