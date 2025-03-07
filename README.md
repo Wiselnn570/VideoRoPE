@@ -28,7 +28,7 @@
 
 **[2024/6/7]** Our paper has been featured as [HuggingFace Daily Papers](https://huggingface.co/papers?date=2024-06-07) and ranked 1st in 6.7. -->
 
-**[2025/3/7]** The V-NIAH-D benchmark and training data have been released on [🤗 Huggingface](https://huggingface.co/datasets/Wiselnn/VideoRoPE).
+**[2025/3/7]** The V-NIAH-D benchmark and training data have been released on [Huggingface](https://huggingface.co/datasets/Wiselnn/VideoRoPE).
 
 
 **[2025/3/7]** The training code has been added to the repository, please check it out.
