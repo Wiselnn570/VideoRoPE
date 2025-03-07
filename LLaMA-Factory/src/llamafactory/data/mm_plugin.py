@@ -25,10 +25,10 @@ from decord import VideoReader, cpu
 from qwen_vl_utils import process_vision_info
 client = Client()
 def proxy():
-    os.environ['http_proxy'] = 'http://weixilin:huM4yr3DYBfYBNZSY34h20SowcyYPJpihdTuGpLvivEUngVFB6mCqi4bRUJG@10.1.20.50:23128/'
-    os.environ['https_proxy'] = 'http://weixilin:huM4yr3DYBfYBNZSY34h20SowcyYPJpihdTuGpLvivEUngVFB6mCqi4bRUJG@10.1.20.50:23128/'
-    os.environ['HTTP_PROXY'] = 'http://weixilin:huM4yr3DYBfYBNZSY34h20SowcyYPJpihdTuGpLvivEUngVFB6mCqi4bRUJG@10.1.20.50:23128/'
-    os.environ['HTTPS_PROXY'] = 'http://weixilin:huM4yr3DYBfYBNZSY34h20SowcyYPJpihdTuGpLvivEUngVFB6mCqi4bRUJG@10.1.20.50:23128/'
+    os.environ['http_proxy'] = ''
+    os.environ['https_proxy'] = ''
+    os.environ['HTTP_PROXY'] = ''
+    os.environ['HTTPS_PROXY'] = ''
 
 def proxy_off():
     os.environ['http_proxy'] = ''
