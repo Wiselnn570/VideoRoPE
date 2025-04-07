@@ -35,12 +35,12 @@
 
 **[2025/2/14]** [Code]() and [Project Page](https://wiselnn570.github.io/VideoRoPE/) are released!
 
-<!-- ## 👨‍💻 Todo
+## 👨‍💻 Todo
 
 - [✓] VideoRoPE Implementation with *transformers*
 - [✓] VideoRoPE Implementation with *vLLM*
 - [✓] V-NIAH-D Release
-- [] VideoRoPE-Based Model Checkpoints -->
+- [] Evaluation Code Release
 
 
 ## 🛠️ Usage
