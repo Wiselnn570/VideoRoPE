@@ -37,10 +37,10 @@
 
 ## 👨‍💻 Todo
 
-- [✓] VideoRoPE Implementation with *transformers*
-- [✓] VideoRoPE Implementation with *vLLM*
-- [✓] V-NIAH-D Release
-- [] Evaluation Code Release
+- [x] VideoRoPE Implementation with *transformers*
+- [x] VideoRoPE Implementation with *vLLM*
+- [x] V-NIAH-D Release
+- [ ] Evaluation Code Release
 
 
 ## 🛠️ Usage
