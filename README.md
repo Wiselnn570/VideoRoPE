@@ -40,6 +40,7 @@
 - [x] VideoRoPE Implementation with *transformers*
 - [x] VideoRoPE Implementation with *vLLM*
 - [x] V-NIAH-D Release
+- [x] Checkpoints Release
 - [ ] Evaluation Code Release
 
 
