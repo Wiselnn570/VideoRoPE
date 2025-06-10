@@ -43,12 +43,18 @@
 - [x] VideoRoPE Implementation with *vLLM*
 - [x] V-NIAH-D Release
 - [x] Checkpoints Release
-- [ ] Evaluation Code Release
+- [x] Evaluation Code Release
+- [ ] Release VideoRoPE++
 
 
 ## 🛠️ Usage
+- Required Package Versions
+  ```
+  transformers 4.45.2
+  vllm 0.6.3.post2.dev171+g890ca360
+  ```
 
-- The implementation of videorope is emphasized with **#!**, and you can easily find it by pressing ctrl + F.
+- The implementation of videorope (both transformers and vllm) is emphasized with **#!**, and you can easily find it by pressing ctrl + F.
 - For transformer inference:
   ```
   with torch.inference_mode():
