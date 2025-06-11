@@ -1,5 +1,7 @@
-# <img src="assets/images/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> VideoRoPE: What Makes for Good Video Rotary Position Embedding?
-
+<h1 align="center">
+ <img src="assets/images/logo.png" style="vertical-align: -10px;" :height="50px" width="50px"> VideoRoPE: What Makes for Good Video Rotary Position Embedding? 
+  <br> [ICML2025 (Oral)]
+</h1>
 
 🚀🚀🚀 Official implementation of **VideoRoPE: What Makes for Good Video Rotary Position Embedding?**
 
@@ -30,7 +32,7 @@
 
 **[2025/6/7]** VideoRoPE is selected as ICML 2025 🌟**Oral**!
 
-**[2025/3/7]** The V-NIAH-D benchmark and training data have been released on [Huggingface](https://huggingface.co/datasets/Wiselnn/VideoRoPE).
+**[2025/3/7]** The V-NIAH-D benchmark, checkpoints and training data have been released on [Huggingface](https://huggingface.co/collections/Wiselnn/videorope-what-makes-for-good-video-rotary-position-embeddi-67ca90664c8e169422449c56).
 
 
 **[2025/3/7]** The training code has been added to the repository, please check it out.
