@@ -137,10 +137,10 @@ sh multi_gpu_sft_slurm.sh
 If you find our work helpful for your research, please consider giving a star ⭐ and citation 📝
 
 ```bibtex
-@article{wei2025videorope,
+@inproceedings{wei2025videorope,
   title={VideoRoPE: What Makes for Good Video Rotary Position Embedding?},
   author={Wei, Xilin and Liu, Xiaoran and Zang, Yuhang and Dong, Xiaoyi and Zhang, Pan and Cao, Yuhang and Tong, Jian and Duan, Haodong and Guo, Qipeng and Wang, Jiaqi and others},
-  journal={arXiv preprint arXiv:2502.05173},
+  booktitle={International Conference on Machine Learning},
   year={2025}
 }
 ```
