@@ -46,7 +46,8 @@
 - [x] V-NIAH-D Release
 - [x] Checkpoints Release
 - [x] Evaluation Code Release
-- [ ] VideoRoPE++ Release
+- [x] VideoRoPE++ Paper Release
+- [ ] VideoRoPE++ Code Release
 
 
 ## 🛠️ Usage
