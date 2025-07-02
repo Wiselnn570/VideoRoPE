@@ -1,0 +1,27 @@
+[
+    {
+        "path": "['balloon_jumping.png', 'balloon_cleaning.png', 'balloon_working.png']",
+        "prompt": "Find the frames with the balloon in one's head. What actions does he take?\nA.jumping, cleaning, singing \nB. cleaning, singing, working\nC. jumping, cleaning, working\nD. chatting, jumping, working\nAnswer with the option's letter from the given choices directly.\nA. chatting, jumping, working\nB. cleaning, singing, working\nC. jumping, cleaning, working\nAnswer with the option's letter from the given choices directly.",
+        "answer": "C"
+    },
+    {
+        "path": "['minion_juggling.png', 'minion_fishing.png', 'minion_playing_violin.png']",
+        "prompt": "Find the frames with a Minion. What actions does he take?\nAnswer with the option's letter from the given choices directly.\nA. fishing, dancing, sleeping\nB. juggling, fishing, playing violin\nC. reading, juggling, painting\nD. fishing, running, cooking\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B"
+    },
+    {
+        "path": "['marioplayingdrums.png', 'mariomakingpizza.png', 'mariodoingmagictrick.png']",
+        "prompt": "Find the frames with Mario. What actions does he take?\nAnswer with the option's letter from the given choices directly.\nA. playing drums, making pizza, doing magic trick\nB. running, building, playing drums\nC. doing magic trick, fishing, cleaning\nD. making pizza, jumping, singing\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A"
+    },
+    {
+        "path": "['basketball_player_tying_shoes.png', 'boy_tying_shoes.png', 'goat_tying_shoes.png']",
+        "prompt": "Find the frames where someone is tying their shoes. What are the characters in these frames?\nAnswer with the option's letter from the given choices directly.\nA. teacher, goat, nurse\nB. basketball player, goat, boy\nC. goat, dancer, firefighter\nD. runner, cat, grandma\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B"
+    },
+    {
+        "path": "['businessman_reading_newspaper.png', 'chimpanzee_reading_newspaper.png', 'teenage_girl_reading_newspaper.png', 'grandma_reading_newspaper.png']",
+        "prompt": "Find the frames with newspaper-reading actions. Who are the characters in these frames?\nAnswer with the option's letter from the given choices directly.\nA. chimpanzee, monk, child, teenage girl\nB. grandma, chimpanzee, dog, teacher\nC. businessman, chimpanzee, grandma, teenage girl\nD. businessman, cat, grandma, robot\nAnswer with the option's letter from the given choices directly.",
+        "answer": "C"
+    }
+]

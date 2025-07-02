@@ -1,0 +1,48 @@
+[
+    {
+        "path": [
+            "balloons.png",
+            "cakes.png"
+        ],
+        "prompt": "\nFind the frames about balloon, cake. What is the order of their appearance in the video?\nA. balloon, cake\nB. cake, balloon\nC. only balloon\nD. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A"
+    },
+    {
+        "path": [
+            "balloons.png",
+            "cakes.png",
+            "shoes.png"
+
+        ],
+        "prompt": "\nFind the frames about balloon, cake, shoes. What is the order of their appearance in the video?\nA. balloon, cake, shoes\nB. cake, balloon, shoes\nC. balloon, shoes, cake\nD. shoes, cake, balloon\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A"
+    },
+    {
+        "path": [
+            "flowers.png",
+            "shoes.png"
+            ],
+        "prompt": "\nFind the frames about flowers, shoes. What is the order of their appearance in the video?\nA. flowers, shoes\nB. shoes, flowers\nC. only flowers\nD. I don't know\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A"
+    },
+    {
+        "path": [
+            "cakes.png",
+            "balloons.png",
+            "flowers.png",
+            "shoes.png"
+        ],
+        "prompt": "\nFind the frames about balloon, cake, shoes, flowers. What is the order of their appearance in the video?\nA. balloon, cake, shoes, flowers\nB. cake, balloon, flowers, shoes\nC. balloon, flowers, shoes, cake\nD. flowers, shoes, cake, balloon\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B"
+    },
+    {
+        "path": [
+            "flowers.png",
+            "shoes.png",
+            "cakes.png",
+            "balloons.png"
+        ],
+        "prompt": "\nFind the frames about balloon, cake, shoes, flowers. What is the order of their appearance in the video?\nA. balloon, cake, shoes, flowers\nB. cake, balloon, flowers, shoes\nC. balloon, flowers, shoes, cake\nD. flowers, shoes, cake, balloon\nAnswer with the option's letter from the given choices directly.",
+        "answer": "D"
+    }
+]

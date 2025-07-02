@@ -1,0 +1,37 @@
+[
+    {
+        "path": [],
+        "prompt": "Find frames with ballons. If one frame contains k ballons, count them as k times. How many times does the ballon appear in the video?\nAnswer with the option's letter from the given choices directly.\nA. 2\nB. 3\nC. 0\nD. 1\nAnswer with the option's letter from the given choices directly.",
+        "answer": "C"
+    },
+    {
+        "path": [
+            "balloons_1.png"
+        ],
+        "prompt": "Find frames with ballons. If one frame contains k ballons, count them as k times. How many times does the ballon appear in the video?\nAnswer with the option's letter from the given choices directly.\nA. 1\nB. 6\nC. 4\nD. 2\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A"
+    },
+    {
+        "path": [
+            "cakes_1.png"
+        ],
+        "prompt": "Find frames with cakes. If one frame contains k cakes, count them as k times. How many times does the cake appear in the video?\nAnswer with the option's letter from the given choices directly.\nA. 2\nB. 3\nC. 4\nD. 1\nAnswer with the option's letter from the given choices directly.",
+        "answer": "D"
+    },
+    {
+        "path": [
+            "balloons_1.png",
+            "balloons_1.png"
+        ],
+        "prompt": "Find frames with ballons. If one frame contains k ballons, count them as k times. How many times does the ballon appear in the video?\nAnswer with the option's letter from the given choices directly.\nA. 4\nB. 2\nC. 3\nD. 6\nAnswer with the option's letter from the given choices directly.",
+        "answer": "B"
+    },
+    {
+        "path": [
+            "balloons_2.png",
+            "balloons_1.png"
+        ],
+        "prompt": "Find frames with ballons. If one frame contains k ballons, count them as k times. How many times does the ballon appear in the video?\nAnswer with the option's letter from the given choices directly.\nA. 2\nB. 4\nC. 1\nD. 3\nAnswer with the option's letter from the given choices directly.",
+        "answer": "D"
+    }
+]

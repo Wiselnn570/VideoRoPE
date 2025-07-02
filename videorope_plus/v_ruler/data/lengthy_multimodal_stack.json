@@ -1,0 +1,138 @@
+[
+    {
+        "video_id": "AjF13uKVQa0",
+        "question": "In the lower right corner of the screen, there is a man wearing a suit. His right hand is raised, and beside his right hand is the number 47. Behind this man, there is a white background with 10 lines of text. What color are these words?",
+        "question_wo_referring_query": "What color are these words?",
+        "candidates": [
+            "The top line is yellow, the rest are black",
+            "The third line has some blue text, the rest are black",
+            "The top 8 lines of text are black, the bottom 2 lines are red",
+            "All are black"
+        ],
+        "correct_choice": 3,
+        "position": [
+            9868
+        ],
+        "topic_category": "KC-Knowledge-Computer-Science",
+        "question_category": "S2A",
+        "level": "L1-Perception",
+        "id": "AjF13uKVQa0_1",
+        "video_path": "AjF13uKVQa0.mp4",
+        "subtitle_path": "AjF13uKVQa0_en.json",
+        "duration_group": 600,
+        "starting_timestamp_for_subtitles": 34,
+        "duration": 579.0,
+        "view_count": 286,
+        "answer": "(D) All are black"
+    },
+    {
+        "video_id": "9yQV0t5meo4",
+        "question": "In the scene on the wide street, there are a few cars and a few buildings in the background. What change occurred to the bird after it was on the ground?",
+        "question_wo_referring_query": "What change occurred to the bird after it was on the ground?",
+        "candidates": [
+            "Stayed in the same place",
+            "Walked on the ground",
+            "Flew onto a tree",
+            "Flew into the sky"
+        ],
+        "correct_choice": 3,
+        "position": [
+            36,
+            149
+        ],
+        "topic_category": "LV-Lifestyle-Life-Vlogs",
+        "question_category": "SAA",
+        "level": "L2-Relation",
+        "id": "9yQV0t5meo4_0",
+        "video_path": "9yQV0t5meo4.mp4",
+        "subtitle_path": "9yQV0t5meo4_en.json",
+        "duration_group": 15,
+        "starting_timestamp_for_subtitles": 14,
+        "duration": 9.01,
+        "view_count": 3792,
+        "answer": "(D) Flew into the sky"
+    },
+    {
+        "video_id": "SKET024GdlE",
+        "question": "Who is the person standing in front of the wall with several rectangular maps, talking to the camera?",
+        "question_wo_referring_query": "Who is it?",
+        "candidates": [
+            "A man wearing a green shirt",
+            "A man wearing a red shirt",
+            "A man wearing a multicolored shirt",
+            "A man wearing a black shirt",
+            "A man wearing a purple shirt"
+        ],
+        "correct_choice": 0,
+        "position": [
+            366
+        ],
+        "topic_category": "KG-Knowledge-Geography",
+        "question_category": "E2O",
+        "level": "L1-Perception",
+        "id": "SKET024GdlE_0",
+        "video_path": "SKET024GdlE.mp4",
+        "subtitle_path": "SKET024GdlE_en.json",
+        "duration_group": 60,
+        "starting_timestamp_for_subtitles": 14,
+        "duration": 17.02,
+        "view_count": 23558,
+        "answer": "(A) A man wearing a green shirt"
+    },
+    {
+        "video_id": "@jess.morg-7079970495499717934",
+        "question": "What is the correct order of the following scenes?",
+        "question_wo_referring_query": "What is the correct order of the following scenes?",
+        "candidates": [
+            "First, a red heart-shaped screen, then a dimly lit street scene, followed by a gas station screen.",
+            "First, a gas station screen, then a dimly lit street scene, followed by a red heart-shaped screen.",
+            "First, a dimly lit street scene, then a gas station screen, followed by a red heart-shaped screen.",
+            "First, a gas station screen, then a red heart-shaped screen, followed by a dimly lit street scene.",
+            "First, a dimly lit street scene, then a red heart-shaped screen, followed by a gas station screen."
+        ],
+        "correct_choice": 0,
+        "position": [
+            2,
+            48,
+            106
+        ],
+        "topic_category": "LV-Lifestyle-Life-Vlogs",
+        "question_category": "SSS",
+        "level": "L2-Relation",
+        "id": "@jess.morg-7079970495499717934_0",
+        "video_path": "7079970495499717934.mp4",
+        "subtitle_path": "7079970495499717934_en.json",
+        "duration_group": 15,
+        "starting_timestamp_for_subtitles": 0,
+        "duration": 9.17,
+        "view_count": 115,
+        "answer": "(A) First, a red heart-shaped screen, then a dimly lit street scene, followed by a gas station screen."
+    },
+    {
+        "video_id": "@tiffycooks-7194857776877817094",
+        "question": "Who is the person, in a room with green plants, holding chopsticks and picking up food from the round plate on the table in front, and then putting it into their mouth?",
+        "question_wo_referring_query": "Who is it?",
+        "candidates": [
+            "A black-haired woman wearing a black top",
+            "A black-haired man wearing a white top",
+            "A black-haired woman wearing a white top",
+            "A white-haired woman wearing a black top",
+            "A black-haired woman wearing a purple top"
+        ],
+        "correct_choice": 0,
+        "position": [
+            79
+        ],
+        "topic_category": "LC-Lifestyle-Cooking-Recipes",
+        "question_category": "E2O",
+        "level": "L1-Perception",
+        "id": "@tiffycooks-7194857776877817094_0",
+        "video_path": "7194857776877817094.mp4",
+        "subtitle_path": "7194857776877817094_en.json",
+        "duration_group": 60,
+        "starting_timestamp_for_subtitles": 0,
+        "duration": 24.13,
+        "view_count": 2610602,
+        "answer": "(A) A black-haired woman wearing a black top"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "path": "selenium_green.png",
+        "interrupt_path": "selenium_green_interrupt.png",
+        "prompt": "\nFind the frame with the image of Selenium tablets. How many mg does each tablet contain?\nAnswer the question using a single word or phrase.",
+        "answer": "200"
+    },
+    {
+        "path": "beach_umbrella.png",
+        "interrupt_path": "beach_umbrella_interrupt.png",
+        "prompt": "Find the beach umbrella. What color is the towel under it?\nAnswer with the option's letter from the given choices directly.\nA. red\nB. yellow\nC. blue\nD. green\nAnswer with the option's letter from the given choices directly.",
+        "answer": "C"
+    },
+    {
+        "path": "bicycle_shop.png",
+        "interrupt_path": "bicycle_shop_interrupt.png",
+        "prompt": "Find the bicycle shop. What is mounted on the wall?\nAnswer with the option's letter from the given choices directly.\nA. helmet\nB. backpack\nC. water bottle\nD. pump\nAnswer with the option's letter from the given choices directly.",
+        "answer": "A"
+    },
+    {
+        "path": "bus_stop.png",
+        "interrupt_path": "bus_stop_interrupt.png",
+        "prompt": "Find the bus stop. What is next to the bench?\nAnswer with the option's letter from the given choices directly.\nA. plant pot\nB. dog\nC. trash bin\nD. newspaper stand\nAnswer with the option's letter from the given choices directly.",
+        "answer": "C"
+    },
+    {
+        "path": "teddy_bear_times_square.png",
+        "interrupt_path": "teddy_bear_times_square_interrupt.png",
+        "prompt": "Find the frame of a teddy bear. Where is this teddy bear?\nPlease provide your answer by stating the letter followed by the full option.\nA. Taj Mahal\nB. Sydney Opera House\nC. Times Square\nD. Eiffel Tower\nAnswer with the option's letter from the given choices directly.",
+        "answer": "C"
+    }
+]
