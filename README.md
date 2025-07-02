@@ -29,6 +29,7 @@
 **[2024/6/11]** The web demo and local demo of ShareGPT4Video-8B are available now!
 
 **[2024/6/7]** Our paper has been featured as [HuggingFace Daily Papers](https://huggingface.co/papers?date=2024-06-07) and ranked 1st in 6.7. -->
+**[2025/7/2]** VideoRoPE++ is released with the **training-free extrapolation method YaRN-V** and the **comprehensive V-RULER benchmark**. See [paper](https://github.com/Wiselnn570/VideoRoPE/blob/main/VideoRoPE_plus.pdf) and [code](https://github.com/Wiselnn570/VideoRoPE/tree/main/videorope_plus).
 
 **[2025/6/7]** VideoRoPE is selected as ICML 2025 🌟**Oral**!
 
@@ -47,7 +48,8 @@
 - [x] Checkpoints Release
 - [x] Evaluation Code Release
 - [x] VideoRoPE++ Paper Release
-- [ ] VideoRoPE++ Code Release
+- [x] VideoRoPE++ Code Release
+- [ ] VideoRoPE++ V-RULER huggingface Release
 
 
 ## 🛠️ Usage
