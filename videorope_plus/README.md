@@ -8,6 +8,11 @@
 - **Authors**: [Xilin Wei](https://github.com/Wiselnn570), [Xiaoran Liu](https://scholar.google.de/citations?user=Qe6F4J4AAAAJ&hl=en), [Yuhang Zang](https://yuhangzang.github.io), [Shengyuan Ding](https://github.com/SYuan03), [Xiaoyi Dong](https://lightdxy.github.io), [Pan Zhang](https://panzhang0212.github.io/), [Yuhang Cao](https://scholar.google.com/citations?user=sJkqsqkAAAAJ&hl=en), [Haodong Duan](https://kennymckormick.github.io/), [Qipeng Guo](https://scholar.google.com/citations?user=k3mPGKgAAAAJ&hl=en), [Jiaqi Wang](https://myownskyw7.github.io/), [Xipeng Qiu](https://xpqiu.github.io/en.html), [Dahua Lin](http://dahua.site/)
 - **Institutes**: Fudan University; Shanghai AI Laboratory; Shanghai Innovation Institute
 - **Resources**: [📖[Paper](https://github.com/Wiselnn570/VideoRoPE/blob/main/VideoRoPE_plus.pdf)] [[🏠Project Page](https://wiselnn570.github.io/VideoRoPE/)] [[🤗Huggingface](https://huggingface.co/collections/Wiselnn/videorope-what-makes-for-good-video-rotary-position-embeddi-67ca90664c8e169422449c56)]
+
+<p align="center">
+  <img src="../assets/images/compare_table_2.png">
+</p>
+
 ## 💡 Highlights
 
 - 🔥 **Five Key Positional Encoding Schemes:** We present an analysis of five key properties essential for applying RoPE to video data. Motivated by this analysis, we propose **VideoRoPE++**, which incorporates **Low-frequency Temporal Allocation (LTA)**, **Diagonal Layout (DL)**, **Adjustable Temporal Spacing (ATS)**, and **YaRN-V** to fulfill all five properties. This work represents a further step forward in exploring positional encoding and its extrapolation capabilities in video.
