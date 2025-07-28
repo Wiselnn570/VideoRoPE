@@ -25,6 +25,13 @@ If you find our work helpful for your research, please consider giving a star �
   booktitle={International Conference on Machine Learning},
   year={2025}
 }
+
+@misc{wei2025videoropepp,
+  author       = {Xilin Wei and Xiaoran Liu and Yuhang Zang and Shengyuan Ding and Xiaoyi Dong and Yuhang Cao and Haodong Duan and Qipeng Guo and Jiaqi Wang and Xipeng Qiu and Dahua Lin},
+  title        = {VideoRoPE++: Towards Better Video Rotary Position Embedding},
+  year         = {2025},
+  howpublished = {\url{https://github.com/Wiselnn570/VideoRoPE/blob/main/paper/VideoRoPE++.pdf}},
+}
 ```
 
 ## ❤️ Acknowledgments
