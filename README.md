@@ -21,13 +21,6 @@
 ## ðŸ“œ News
 
 <!--
-@misc{wei2025videoropepp,
-  author       = {Xilin Wei and Xiaoran Liu and Yuhang Zang and Shengyuan Ding and Xiaoyi Dong and Yuhang Cao and Haodong Duan and Qipeng Guo and Jiaqi Wang and Xipeng Qiu and Dahua Lin},
-  title        = {VideoRoPE++: Towards Better Video Rotary Position Embedding},
-  year         = {2025},
-  howpublished = {\url{https://github.com/Wiselnn570/VideoRoPE/blob/main/videorope_plus/VideoRoPE_plus.pdf}},
-  doi={10.5281/zenodo.16529245}
-}
 
 **[2024/10/1]** ShareGPT4Video was accepted by NeurIPS 2024 D&B track!
 
@@ -159,6 +152,14 @@ If you find our work helpful for your research, please consider giving a star â­
   author={Wei, Xilin and Liu, Xiaoran and Zang, Yuhang and Dong, Xiaoyi and Zhang, Pan and Cao, Yuhang and Tong, Jian and Duan, Haodong and Guo, Qipeng and Wang, Jiaqi and others},
   booktitle={International Conference on Machine Learning},
   year={2025}
+
+@misc{wei2025videoropepp,
+  author       = {Xilin Wei and Xiaoran Liu and Yuhang Zang and Shengyuan Ding and Xiaoyi Dong and Yuhang Cao and Haodong Duan and Qipeng Guo and Jiaqi Wang and Xipeng Qiu and Dahua Lin},
+  title        = {VideoRoPE++: Towards Better Video Rotary Position Embedding},
+  year         = {2025},
+  howpublished = {\url{https://github.com/Wiselnn570/VideoRoPE/blob/main/videorope_plus/VideoRoPE_plus.pdf}},
+  doi={10.5281/zenodo.16529245}
+}
 }
 
 ```
