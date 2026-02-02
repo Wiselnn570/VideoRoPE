@@ -20,7 +20,16 @@
 
 ## 📜 News
 
-<!-- **[2024/10/1]** ShareGPT4Video was accepted by NeurIPS 2024 D&B track!
+<!--
+@misc{wei2025videoropepp,
+  author       = {Xilin Wei and Xiaoran Liu and Yuhang Zang and Shengyuan Ding and Xiaoyi Dong and Yuhang Cao and Haodong Duan and Qipeng Guo and Jiaqi Wang and Xipeng Qiu and Dahua Lin},
+  title        = {VideoRoPE++: Towards Better Video Rotary Position Embedding},
+  year         = {2025},
+  howpublished = {\url{https://github.com/Wiselnn570/VideoRoPE/blob/main/videorope_plus/VideoRoPE_plus.pdf}},
+  doi={10.5281/zenodo.16529245}
+}
+
+**[2024/10/1]** ShareGPT4Video was accepted by NeurIPS 2024 D&B track!
 
 **[2024/7/1]** The code about batch-inference of ShareCaptioner-Video is available now!
 
@@ -152,15 +161,7 @@ If you find our work helpful for your research, please consider giving a star �
   year={2025}
 }
 
-@misc{wei2025videoropepp,
-  author       = {Xilin Wei and Xiaoran Liu and Yuhang Zang and Shengyuan Ding and Xiaoyi Dong and Yuhang Cao and Haodong Duan and Qipeng Guo and Jiaqi Wang and Xipeng Qiu and Dahua Lin},
-  title        = {VideoRoPE++: Towards Better Video Rotary Position Embedding},
-  year         = {2025},
-  howpublished = {\url{https://github.com/Wiselnn570/VideoRoPE/blob/main/videorope_plus/VideoRoPE_plus.pdf}},
-  doi={10.5281/zenodo.16529245}
-}
 ```
-
 ## ❤️ Acknowledgments
 
 - [transformers](https://github.com/huggingface/transformers): the codebase we built upon. Thanks for their wonderful work.
