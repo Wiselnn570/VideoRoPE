@@ -157,9 +157,9 @@ If you find our work helpful for your research, please consider giving a star тн
 @misc{wei2025videoropepp,
   author       = {Xilin Wei and Xiaoran Liu and Yuhang Zang and Shengyuan Ding and Xiaoyi Dong and Yuhang Cao and Haodong Duan and Qipeng Guo and Jiaqi Wang and Xipeng Qiu and Dahua Lin},
   title        = {VideoRoPE++: Towards Better Video Rotary Position Embedding},
-  year         = {2025},
-  howpublished = {\url{https://github.com/Wiselnn570/VideoRoPE/blob/main/videorope_plus/VideoRoPE_plus.pdf}},
-  doi={10.5281/zenodo.16529245}
+  howpublished = {https://github.com/Wiselnn570/VideoRoPE},
+  note         = {GitHub repository},
+  year         = {2025}
 }
 
 ```
